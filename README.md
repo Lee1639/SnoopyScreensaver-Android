@@ -1,4 +1,4 @@
-# 史努比屏保
+# 在安卓上运行的史努比屏保
 
 项目移植自apple tv上的史努比屏保,用grok build将其做成了一个安卓APP,直接在安卓手机上运行app即可显示屏保画面。
 
@@ -37,6 +37,14 @@ gradlew.bat :app:assembleDebug
 
 `SnoopyScreensaver` 是正式版，`SnoopyScreensaver-weather` 是天气版。播放节奏写在 `Director.kt`，画面层和第一次找素材写在 `SnoopySession.kt`。`StageView.kt` 把房间、角色和遮罩画出来。`Heic.kt` 认文件、做解码。素材目录和播放规则在 `Engine.kt`。天气版另有 `Weather.kt`。
 
-`app/src/main/assets/asset-index.json` 是一份清单，记录每个画面有哪些文件。清单里没有图像。
+`app/src/main/assets/asset-index.json` 是一份清单，记录每个画面有哪些文件。
 
-史努比的形象和原版屏保素材属于各自的权利人。这里放的是自己写的安卓播放器。
+
+## 版权与免责声明
+Snoopy、Peanuts、Apple TV 及相关名称、角色、商标和媒体资源归各自权利人所有。
+
+本项目是非官方的安卓播放实现，与 Apple、Peanuts Worldwide 或其他相关权利人不存在授权、赞助、认可或合作关系。
+
+第三方媒体素材不属于本项目作者。下载、使用和保存这些素材由使用者自行负责，并应遵守适用的法律法规及相关权利人的要求。
+
+素材包由 dingdangnao/Snoopy-Screensaver 整理。
