@@ -2,7 +2,7 @@
 
 在安卓手机上看史努比屏保。画面会自己换：房间、史努比的动作、路过的角色，以及一段时间后切进来的全屏视频。视频和屏保之间用原版那种擦除遮罩过渡。
 
-这个仓库里是播放器的源码。画面素材大约 7.2GB，不在仓库里，下载地址写在下面。
+这个仓库里是播放器的源码。可以直接安装的包在 [Releases](https://github.com/Lee1639/SnoopyScreensaver/releases/tag/v1.0)：`SnoopyScreensaver.apk` 是正式版，`SnoopyScreensaver-weather.apk` 是天气版。画面素材大约 7.2GB，不在仓库里，下载地址写在下面。
 
 有两个可以同时装在手机上的应用：
 
