@@ -47,4 +47,4 @@ Snoopy、Peanuts、Apple TV 及相关名称、角色、商标和媒体资源归�
 
 第三方媒体素材不属于本项目作者。下载、使用和保存这些素材由使用者自行负责，并应遵守适用的法律法规及相关权利人的要求。
 
-素材包由 dingdangnao/Snoopy-Screensaver 整理。
+素材包由 [dingdangnao/Snoopy-Screensaver](https://github.com/dingdangnao/Snoopy-Screensaver) 整理。
