@@ -113,23 +113,4 @@ README.md                     本说明
 
 `app/src/main/assets/asset-index.json` 是素材清单，用来知道每个画面有哪些文件。它不是画面本身。
 
-## 没用过 GitHub 的话
-
-GitHub 上的一个仓库，就是这份代码的网页。打开仓库首页，先看到的就是这份说明。
-
-想把代码下载到另一台电脑：点绿色的 **Code**，再点 **Download ZIP**。压缩包里没有 `SnoopyAssets`，素材仍要从上面的网盘单独下载。
-
-平时看代码：点进 `SnoopyScreensaver` 或 `SnoopyScreensaver-weather`，再点进 `app/src/main/java`。
-
-以后如果改了代码，想让网页上的内容也更新，可以用 [GitHub Desktop](https://desktop.github.com/)。它比命令行好认一些：
-
-1. 安装后登录你的 GitHub 账号。
-2. 选 **File → Add local repository**，选中本机的 `F:\Snoopy`。不要另外再克隆一份盖到这个目录上，这里还放着没有上传的素材。
-3. 左边会列出改过的文件。确认里面没有 `SnoopyAssets` 和 `.zip`。
-4. 左下角写一句这次改了什么，点 **Commit**，再点 **Push origin**。
-
-网页上的 **Commits** 是每次提交的记录。这次上传是第一次提交。
-
-仓库是公开的。任何人都能看到源码和这份说明里的网盘地址。如果只想自己看见，打开仓库的 **Settings → General**，拉到最下面的 **Danger Zone**，选 **Change repository visibility**，改成 Private。
-
 史努比的形象和原版屏保素材属于各自的权利人。这里发布的是自己写的安卓播放器。
