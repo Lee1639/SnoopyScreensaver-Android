@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">史努比屏保</string>
+    <string name="hint_exit">返回键退出</string>
+    <string name="gate_title">把素材文件夹放到手机里</string>
+    <string name="gate_body">画面素材约 7.2GB，不在这个安装包里。请把 SnoopyAssets 放到内部存储根目录，并允许本应用「访问所有文件」。允许之后重新打开，会直接进入屏保。</string>
+    <string name="gate_denied">素材已经在内部存储 / SnoopyAssets，但系统拒绝读取。请打开下一页的「允许访问所有文件」开关，然后返回。</string>
+    <string name="gate_pick">选择 SnoopyAssets 文件夹</string>
+    <string name="gate_grant">允许访问全部文件</string>
+    <string name="gate_missing">这个位置里没有 idlechara 素材目录。</string>
+</resources>

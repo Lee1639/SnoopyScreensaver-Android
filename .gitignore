@@ -1,0 +1,15 @@
+# 画面素材大约 7GB，放在网盘，不进仓库。说明见 README。
+/SnoopyAssets/
+/SnoopyAssets.zip
+
+# 本机路径和编译结果
+**/.gradle/
+**/.kotlin/
+**/build/
+**/local.properties
+**/*.apk
+**/.idea/
+**/*.iml
+**/.DS_Store
+**/*.jks
+**/*.keystore

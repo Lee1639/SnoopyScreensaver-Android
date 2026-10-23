@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">史努比屏保·天气</string>
+    <string name="hint_exit">长按设置天气，返回键退出</string>
+    <string name="weather_title">天气彩蛋</string>
+    <string name="weather_hint">填写城市后，雨、雪、阴天等画面会优先出现。查不到天气时仍播放普通内容。</string>
+    <string name="weather_city_hint">城市，例如上海</string>
+    <string name="weather_save">保存城市</string>
+    <string name="weather_use">按天气更换画面</string>
+    <string name="weather_close">完成</string>
+    <string name="weather_need_city">请填写城市。</string>
+    <string name="weather_not_found">没有找到这个城市。</string>
+    <string name="weather_failed">天气暂时查不到，继续播放普通内容。</string>
+    <string name="weather_disabled">天气已关闭。</string>
+    <string name="gate_title">把素材文件夹放到手机里</string>
+    <string name="gate_body">画面素材约 7.2GB，不在这个安装包里。请把 SnoopyAssets 放到内部存储根目录，并允许本应用「访问所有文件」。允许之后重新打开，会直接进入屏保。</string>
+    <string name="gate_denied">素材已经在内部存储 / SnoopyAssets，但系统拒绝读取。请打开下一页的「允许访问所有文件」开关，然后返回。</string>
+    <string name="gate_pick">选择 SnoopyAssets 文件夹</string>
+    <string name="gate_grant">允许访问全部文件</string>
+    <string name="gate_missing">这个位置里没有 idlechara 素材目录。</string>
+</resources>

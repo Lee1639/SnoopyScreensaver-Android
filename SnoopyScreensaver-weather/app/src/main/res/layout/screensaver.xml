@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    android:fitsSystemWindows="false">
+
+    <com.snoopysaver.android.StageView
+        android:id="@+id/back_stage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextureView
+        android:id="@+id/background_video"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:visibility="gone" />
+
+    <TextureView
+        android:id="@+id/active_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <com.snoopysaver.android.StageView
+        android:id="@+id/front_stage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/fade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF000000" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="28dp"
+        android:text="@string/hint_exit"
+        android:textColor="#B3FFFFFF"
+        android:textSize="14sp" />
+
+    <ScrollView
+        android:id="@+id/gate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF000000"
+        android:fillViewport="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gate_title"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/gate_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/gate_body"
+                android:textColor="#CCFFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/gate_pick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/gate_pick" />
+
+            <Button
+                android:id="@+id/gate_grant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/gate_grant" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/weather_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E6000000"
+        android:fillViewport="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/weather_title"
+                android:textColor="#FFFFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="@string/weather_hint"
+                android:textColor="#CCFFFFFF"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/weather_city"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#FF1C1C1C"
+                android:hint="@string/weather_city_hint"
+                android:inputType="text"
+                android:padding="12dp"
+                android:textColor="#FFFFFFFF"
+                android:textColorHint="#FFBDBDBD" />
+
+            <TextView
+                android:id="@+id/weather_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:textColor="#CCFFFFFF"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weather_use"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/weather_use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:buttonTint="#FFFFFFFF" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/weather_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/weather_save" />
+
+            <Button
+                android:id="@+id/weather_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_close" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
